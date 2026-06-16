@@ -469,9 +469,9 @@ export default function App() {
               <div className="text-center mb-16">
                 <div className="inline-flex items-center gap-3 mb-4">
                   <Briefcase className="w-10 h-10 text-blue-600" />
-                  <h2 className="text-4xl md:text-5xl bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent whitespace-nowrap">
-                  Pengalaman Kerja
-                </h2>
+                  <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
+                    Pengalaman
+                  </h2>
                 </div>
                 <div className="w-20 h-1 bg-gradient-to-r from-blue-600 to-indigo-600 mx-auto rounded-full"></div>
               </div>
