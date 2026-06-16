@@ -268,7 +268,7 @@ export default function App() {
                   M. Yusuf
                 </h1>
                 <p className="text-xl md:text-2xl text-slate-700 dark:text-slate-300 mb-4 font-medium">
-                  Graphic Design | Web Development
+                  Desain Grafis | Pengembangan Web
                 </p>
                 <p className="text-slate-600 dark:text-slate-400 mb-8 text-lg leading-relaxed">
                   Fokus pada desain UI/UX, pengembangan website, dan manajemen database.
@@ -771,7 +771,7 @@ export default function App() {
             <h3 className="text-3xl font-bold mb-2 bg-gradient-to-r from-blue-400 to-indigo-400 bg-clip-text text-transparent">
               M. Yusuf
             </h3>
-            <p className="text-slate-400 mb-6">Graphic Design | Web Development</p>
+            <p className="text-slate-400 mb-6">Desain Grafis | Pengembangan Web</p>
             <div className="flex justify-center gap-4 mb-8">
               {[
                 { href: 'mailto:sufzzz01@gmail.com', icon: Mail, label: 'Email', hover: 'hover:bg-blue-600' },
