@@ -421,42 +421,43 @@ export default function App() {
 
                         {/* ── Desktop right card (odd items) ── */}
                         <div className={`hidden md:flex flex-1 ${!isEven ? 'justify-start pl-10' : 'pl-10 invisible'}`}>
-  {!isEven && (
-    <div className="w-full max-w-xs bg-white/70 dark:bg-slate-800/70 backdrop-blur-xl rounded-2xl p-6 shadow-xl border border-slate-200/50 dark:border-slate-700/50 hover:shadow-2xl hover:-translate-y-1 transition-all duration-300">
-      <h3 className="font-bold text-base md:text-lg text-slate-900 dark:text-slate-100 mb-1 leading-tight break-words whitespace-normal">
-        {edu.institution}
-      </h3>
-      <p className="text-sm md:text-base text-slate-600 dark:text-slate-400 mb-3">
-        {edu.degree}
-      </p>
-      <span className={`inline-block px-3 py-1 rounded-full text-xs font-semibold text-white bg-gradient-to-r ${edu.color}`}>
-        {edu.period}
-      </span>
-    </div>
-  )}
-</div>
+                          {!isEven && (
+                            <div className="w-full max-w-xs bg-white/70 dark:bg-slate-800/70 backdrop-blur-xl rounded-2xl p-6 shadow-xl border border-slate-200/50 dark:border-slate-700/50 hover:shadow-2xl hover:-translate-y-1 transition-all duration-300">
+                              <h3 className="font-bold text-lg text-slate-900 dark:text-slate-100 mb-1 leading-snug">
+                                {edu.institution}
+                              </h3>
+                              <p className="text-slate-600 dark:text-slate-300 text-sm mb-3">
+                                {edu.degree}
+                              </p>
+                              <span className={`inline-block px-3 py-1 rounded-full text-xs font-semibold text-white bg-gradient-to-r ${edu.color}`}>
+                                {edu.period}
+                              </span>
+                            </div>
+                          )}
+                        </div>
+
                         {/* ── Mobile card (right of icon) ── */}
-                        <div className="md:hidden flex-1 min-w-0 ml-3 sm:ml-5 overflow-hidden">
-  <div className="bg-white/70 dark:bg-slate-800/70 backdrop-blur-xl rounded-2xl p-4 sm:p-5 shadow-xl border-slate-200/50 dark:border-slate-700/50 hover:shadow-2xl transition-all duration-300 w-full max-w-full">
-    <h3 className="font-bold text-base md:text-lg text-slate-900 dark:text-slate-100 mb-1 leading-tight break-words whitespace-pre-wrap">
-  {edu.institution}
-</h3>
-    <p className="text-sm text-slate-600 dark:text-slate-400 mb-3 break-words">
-      {edu.degree}
-    </p>
-    <span className={`inline-block px-2 sm:px-3 py-1 rounded-full text-xs font-semibold text-white bg-gradient-to-r ${edu.color}`}>
-      {edu.period}
-    </span>
-  </div>
-</div>
-</motion.div>
-);
-})}
-</div>
-</div>
-</motion.div>
-</div>
-</section>
+                        <div className="md:hidden flex-1 min-w-0 ml-3 sm:ml-5">
+                        <div className="bg-white/70 dark:bg-slate-800/70 backdrop-blur-xl rounded-2xl p-4 sm:p-5 shadow-xl border-slate-200/50 dark:border-slate-700/50 hover:shadow-2xl transition-all duration-300 w-full max-w-full overflow-hidden">
+                        <h3 className="font-bold text- sm:text-sm text-slate-900 dark:text-slate-100 mb-1 leading-tight break-words whitespace-normal">
+                        {edu.institution}
+                        </h3>
+                      <p className="text-slate-600 dark:text-slate-300 text-xs sm:text-sm mb-3 break-words">
+                       {edu.degree}
+                      </p>
+                      <span className={`inline-block px-2 sm:px-3 py-1 rounded-full text-xs font-semibold text-white bg-gradient-to-r ${edu.color}`}>
+                       {edu.period}
+                      </span>
+                      </div>
+                      </div>
+                      </motion.div>
+                      );
+                      })}
+                      </div>
+                      </div>
+                      </motion.div>
+                      </div>
+                      </section>
         {/* Experience Section */}
         <section id="experience" className="py-24 px-4">
           <div className="max-w-6xl mx-auto">
