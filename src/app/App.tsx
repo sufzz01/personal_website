@@ -85,7 +85,7 @@ const skillCategories = [
 
 const education = [
   {
-    institution: 'Universitas  Muhammadiyah Palembang',
+    institution: 'SMKN 01 Suak Tapeh',
     degree: 'Sarjana Teknologi Informasi',
     period: '2025 – Sekarang',
     icon: GraduationCap,
