@@ -274,16 +274,16 @@ export default function App() {
                   Fokus pada desain UI/UX, pengembangan website, dan manajemen database.
                   Mengikuti perkembangan teknologi dengan pendekatan sistematis, fungsional, dan berpusat pada pengguna.
                 </p>
-                <div className="flex flex-wrap gap-4">
+   <div className="flex flex-wrap gap-4">
   <button
     onClick={() => scrollToSection('about')}
-    className="w-full sm:flex-1 px-8 py-4 bg-gradient-to-r from-blue-600 to-indigo-600 text-white rounded-xl font-medium hover:shadow-xl hover:scale-105 transition-all duration-300 text-center"
+    className="px-8 py-4 bg-gradient-to-r from-blue-600 to-indigo-600 text-white rounded-xl font-medium hover:shadow-xl hover:scale-105 transition-all duration-300 min-w-[200px] min-h-[52px] box-border text-center"
   >
     Tentang Saya
   </button>
   <button
     onClick={() => scrollToSection('contact')}
-    className="w-full sm:flex-1 px-8 py-4 bg-white dark:bg-slate-800 border-2 border-blue-600 text-blue-600 dark:text-blue-400 rounded-xl font-medium hover:shadow-xl hover:scale-105 transition-all duration-300 text-center"
+    className="px-8 py-4 bg-white dark:bg-slate-800 border-2 border-blue-600 text-blue-600 dark:text-blue-400 rounded-xl font-medium hover:shadow-xl hover:scale-105 transition-all duration-300 min-w-[200px] min-h-[52px] box-border text-center"
   >
     Hubungi Saya
   </button>
