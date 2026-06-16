@@ -438,9 +438,9 @@ export default function App() {
                         {/* ── Mobile card (right of icon) ── */}
                         <div className="md:hidden flex-1 min-w-0 ml-3 sm:ml-5 overflow-hidden">
   <div className="bg-white/70 dark:bg-slate-800/70 backdrop-blur-xl rounded-2xl p-4 sm:p-5 shadow-xl border-slate-200/50 dark:border-slate-700/50 hover:shadow-2xl transition-all duration-300 w-full max-w-full">
-    <h3 className="font-bold text-base text-slate-900 dark:text-slate-100 mb-1 leading-tight break-words whitespace-normal">
-      {edu.institution}
-    </h3>
+    <h3 className="font-bold text-base md:text-lg text-slate-900 dark:text-slate-100 mb-1 leading-tight break-words whitespace-pre-wrap">
+  {edu.institution}
+</h3>
     <p className="text-sm text-slate-600 dark:text-slate-400 mb-3 break-words">
       {edu.degree}
     </p>
