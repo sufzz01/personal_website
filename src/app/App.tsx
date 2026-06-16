@@ -408,7 +408,7 @@ export default function App() {
                         {/* ── Center icon (desktop) / Left icon (mobile) ── */}
                         <div className="relative z-10 flex-shrink-0">
                           {/* Mobile dot strip (left-6 aligns with the line) */}
-                          <div className="md:hidden flex items-center">
+                          <div className="md:hidden flex items-start">
                             <div className={`w-12 h-12 rounded-full bg-gradient-to-br ${edu.color} flex items-center justify-center shadow-lg border-4 border-white dark:border-slate-900`}>
                               <Icon className="w-5 h-5 text-white" />
                             </div>
