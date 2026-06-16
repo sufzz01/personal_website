@@ -275,21 +275,20 @@ export default function App() {
                   Mengikuti perkembangan teknologi dengan pendekatan sistematis, fungsional, dan berpusat pada pengguna.
                 </p>
                 <div className="flex flex-wrap gap-4">
-                   <button
-                    onClick={() => scrollToSection('about')}
-                    className="px-8 py-4 bg-gradient-to-r from-blue-600 to-indigo-600 text-white rounded-xl font-medium hover:shadow-xl hover:scale-105 transition-all duration-300"
-                  >
-                    Tentang Saya
-                  </button>
-                  <button
-                    onClick={() => scrollToSection('contact')}
-                    className="px-8 py-4 bg-white dark:bg-slate-800 border-2 border-blue-600 text-blue-600 dark:text-blue-400 rounded-xl font-medium hover:shadow-xl hover:scale-105 transition-all duration-300"
-                  >
-                    Hubungi Saya
-                  </button>
-                </div>
-              </motion.div>
-
+  <button
+    onClick={() => scrollToSection('about')}
+    className="px-8 py-4 bg-gradient-to-r from-blue-600 to-indigo-600 text-white rounded-xl font-medium hover:shadow-xl hover:scale-105 transition-all duration-300 min-w-[200px] text-center"
+  >
+    Tentang Saya
+  </button>
+  <button
+    onClick={() => scrollToSection('contact')}
+    className="px-8 py-4 bg-white dark:bg-slate-800 border-2 border-blue-600 text-blue-600 dark:text-blue-400 rounded-xl font-medium hover:shadow-xl hover:scale-105 transition-all duration-300 min-w-[200px] text-center"
+  >
+    Hubungi Saya
+  </button>
+</div>
+</motion.div>
               <motion.div
                 initial={{ opacity: 0, scale: 0.8 }}
                 animate={{ opacity: 1, scale: 1 }}
@@ -771,7 +770,7 @@ export default function App() {
             <h3 className="text-3xl font-bold mb-2 bg-gradient-to-r from-blue-400 to-indigo-400 bg-clip-text text-transparent">
               M. Yusuf
             </h3>
-            <p className="text-slate-400 mb-6">Desain Grafis | Pengembangan Web</p>
+            <p className="text-slate-400 mb-6">Graphic Design | Web Development</p>
             <div className="flex justify-center gap-4 mb-8">
               {[
                 { href: 'mailto:sufzzz01@gmail.com', icon: Mail, label: 'Email', hover: 'hover:bg-blue-600' },
