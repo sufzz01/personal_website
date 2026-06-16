@@ -392,8 +392,8 @@ export default function App() {
                         <div className={`hidden md:flex flex-1 ${isEven ? 'justify-end pr-10' : 'pr-10 invisible'}`}>
                           {isEven && (
                             <div className="w-full max-w-xs bg-white/70 dark:bg-slate-800/70 backdrop-blur-xl rounded-2xl p-6 shadow-xl border border-slate-200/50 dark:border-slate-700/50 hover:shadow-2xl hover:-translate-y-1 transition-all duration-300">
-                              <h3 className="font-bold text-lg text-slate-900 dark:text-slate-100 mb-1 leading-snug">
-                                {edu.institution}
+                              <h3 className="font-bold text-xs sm:text-sm text-slate-900 dark:text-slate-100 mb-1 leading-tight break-all">
+                            {edu.institution}
                               </h3>
                               <p className="text-slate-600 dark:text-slate-300 text-sm mb-3">
                                 {edu.degree}
