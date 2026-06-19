@@ -694,7 +694,7 @@ export default function App() {
                     { href: 'https://www.linkedin.com/in/sufzz', icon: Linkedin, label: 'LinkedIn', value: 'sufzz', color: 'from-blue-700 to-blue-900' },
                     { href: 'https://github.com/sufzz01', icon: Github, label: 'GitHub', value: 'sufzz01', color: 'from-slate-700 to-slate-900' },
                     { href: 'https://wa.me/6285199799193', icon: SiWhatsapp, label: 'WhatsApp', value: '+62 851-9979-9193', color: 'from-green-600 to-green-700' },
-                    { href: 'https://instagram.com/the_sufzz', icon: Instagram, label: 'Instagram',value: '@the_sufzz', color: 'from-pink-500 to-purple-600' }
+                    { href: 'https://instagram.com/hey.sufzz', icon: Instagram, label: 'Instagram',value: '@hey.sufzz', color: 'from-pink-500 to-purple-600' }
                   ].map(({ href, icon: Icon, label, value, color }) => (
                     <motion.a
                       key={label}
@@ -778,7 +778,7 @@ export default function App() {
                 { href: 'https://linkedin.com/in/sufzz', icon: Linkedin, label: 'LinkedIn', hover: 'hover:bg-blue-600' },
                 { href: 'https://github.com/sufzz01', icon: Github, label: 'GitHub', hover: 'hover:bg-blue-600' },
                 { href: 'https://wa.me/6285199799193', icon: SiWhatsapp, label: 'WhatsApp', hover: 'hover:bg-green-600' },
-                { href: 'https://instagram.com/the_sufzz', icon: Instagram, label: 'Instagram', hover: 'hover:bg-pink-500' },
+                { href: 'https://instagram.com/hey.sufzz', icon: Instagram, label: 'Instagram', hover: 'hover:bg-pink-500' },
               ].map(({ href, icon: Icon, label, hover }) => (
                 <a
                   key={label}
