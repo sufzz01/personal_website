@@ -520,7 +520,7 @@ export default function App() {
                   className="bg-white/60 dark:bg-slate-800/60 backdrop-blur-xl rounded-3xl p-8 shadow-xl border border-slate-200/50 dark:border-slate-700/50 hover:shadow-2xl hover:scale-105 transition-all duration-300"
                 >
                   <div className="w-16 h-16 bg-gradient-to-br from-purple-600 to-pink-600 rounded-2xl flex items-center justify-center mb-6 shadow-lg">
-                    <GraduationCap className="w-8 h-8 text-white" />
+                    <Briefcase className="w-8 h-8 text-white" />
                   </div>
                   <h3 className="text-2xl font-bold text-slate-900 dark:text-slate-100 mb-2">
                     PT Andalan Alam Sumatra (BBS Group)
