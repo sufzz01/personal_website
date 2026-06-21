@@ -86,7 +86,7 @@ const skillCategories = [
 
 const education = [
   {
-    institution: 'UM-Palembang',
+    institution: 'Universitas Muhammadiyah Palembang',
     degree: 'Sarjana Teknologi Informasi',
     period: '2025 – Sekarang',
     icon: GraduationCap,
