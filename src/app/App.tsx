@@ -94,7 +94,7 @@ const education = [
   },
   {
     institution: 'SMKN 01 Suak Tapeh',
-    degree: 'Teknik Komputer dan Jaringan (TKJ)',
+    degree: 'Teknik Komputer dan Jaringan',
     period: '2021 – 2024',
     icon: Monitor,
     color: 'from-indigo-500 to-violet-600',
@@ -330,7 +330,7 @@ export default function App() {
                     Halo, saya <span className="font-semibold text-blue-600 dark:text-blue-400">M. Yusuf</span>, lahir pada tahun 2007, dan saat ini merupakan mahasiswa Program Studi Teknologi Informasi angkatan 2025 di Universitas Muhammadiyah Palembang.
                   </p>
                   <p>
-                    Saya merupakan lulusan SMKN 01 Suak Tapeh dengan jurusan Teknik Komputer dan Jaringan (TKJ). Selama menempuh pendidikan di SMK, saya mempelajari jaringan komputer, perangkat keras, sistem operasi, dan dasar-dasar teknologi informasi.
+                    Saya merupakan lulusan SMKN 01 Suak Tapeh dengan jurusan Teknik Komputer dan Jaringan. Selama menempuh pendidikan di SMK, saya mempelajari jaringan komputer, perangkat keras, sistem operasi, dan dasar-dasar teknologi informasi.
                   </p>
                   <p>
                     Saya juga menjalani Praktik Kerja Lapangan (PKL) selama enam bulan di PT Andalan Alam Sumatra (BBS Group). Dalam kegiatan tersebut, saya bertugas melakukan monitoring data hasil panen, pengolahan data, serta entri data menggunakan Microsoft Excel untuk mendukung kegiatan administrasi perusahaan.
