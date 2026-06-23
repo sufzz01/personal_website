@@ -793,7 +793,7 @@ export default function App() {
               ))}
             </div>
             <div className="border-t border-slate-800 pt-8">
-              <p className="text-slate-500">© 2026 M. Yusuf. All Rights Reserved</p>
+              <p className="text-slate-500">© 2026 M. Yusuf. Hak cipta dilindungi.</p>
             </div>
           </div>
         </footer>
