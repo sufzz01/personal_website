@@ -330,19 +330,19 @@ export default function App() {
             Halo, saya <span className="font-semibold text-blue-600 dark:text-blue-400">M. Yusuf</span>, seorang mahasiswa yang memiliki minat besar di bidang teknologi informasi, khususnya Web Development, Database Management, dan UI/UX Design.
           </p>
           
-          <p className="text-left">
+          <p className="text-left md:text-justify break-words">
             Ketertarikan saya terhadap dunia teknologi dimulai sejak menempuh pendidikan di SMK dan terus berkembang hingga saat ini melalui berbagai proyek akademik maupun pembelajaran mandiri. Selama proses belajar dan pengembangan diri, saya telah terlibat dalam berbagai proyek yang berkaitan dengan perancangan sistem informasi, pengembangan website, serta pengelolaan basis data relasional.
           </p>
           
-          <p className="text-left">
+          <p className="text-left md:text-justify break-words">
             Melalui pengalaman tersebut, saya memahami pentingnya membangun solusi digital yang terstruktur, fungsional, dan mampu menjawab kebutuhan pengguna secara efektif. Selain aspek teknis, saya juga memiliki ketertarikan pada desain antarmuka dan pengalaman pengguna. Saya senang merancang tampilan yang modern, responsif, dan intuitif agar pengguna dapat berinteraksi dengan website atau sistem secara nyaman dan efisien.
           </p>
           
-          <p className="text-left">
+          <p className="text-left md:text-justify break-words">
             Bagi saya, desain yang baik bukan hanya tentang tampilan visual, tetapi juga tentang bagaimana sebuah sistem dapat membantu pengguna mencapai tujuan mereka dengan lebih mudah. Saya percaya bahwa teknologi merupakan sarana untuk menciptakan solusi yang bermanfaat dan memberikan dampak nyata. Oleh karena itu, saya terus mengembangkan kemampuan dalam analisis, pemecahan masalah, serta penerapan teknologi modern untuk menghasilkan website dan sistem yang efektif, efisien, dan bernilai.
           </p>
           
-          <p className="text-left">
+          <p className="text-left md:text-justify break-words">
             Saat ini, saya terus memperdalam pengetahuan dan keterampilan di bidang Web Development, Database Management, dan UI/UX Design, dengan tujuan menjadi seorang profesional yang mampu menggabungkan kemampuan teknis, kreativitas, dan pemikiran analitis dalam membangun solusi digital yang inovatif dan berorientasi pada kebutuhan pengguna.
           </p>
         </div>
