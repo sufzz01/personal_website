@@ -326,19 +326,19 @@ export default function App() {
       <div className="bg-white/60 dark:bg-slate-800/60 backdrop-blur-xl rounded-3xl px-5 py-8 md:px-12 md:py-12 shadow-xl border-slate-200/50 dark:border-slate-700/50">
         <div className="space-y-6 text-slate-700 dark:text-slate-300 text-lg leading-relaxed">
           <p className="text-left lg:text-justify hyphens-auto">
-            Halo, saya <span className="font-semibold text-blue-600 dark:text-blue-400">M. Yusuf</span>. Mahasiswa dengan minat besar di bidang teknologi, khususnya pengembangan website, manajemen database, desain UI/UX, dan keamanan siber.
+            Halo, saya <span className="font-semibold text-blue-600 dark:text-blue-400">M. Yusuf</span>, seorang mahasiswa yang memiliki minat besar di bidang teknologi informasi, khususnya <span className="text-blue-600 dark:text-blue-400">Web Development</span>, <span className="text-blue-600 dark:text-blue-400">Database Management</span>, dan <span className="text-blue-600 dark:text-blue-400">UI/UX Design</span>. Ketertarikan saya terhadap dunia teknologi dimulai sejak menempuh pendidikan di SMK dan terus berkembang hingga saat ini melalui berbagai proyek akademik maupun pembelajaran mandiri.
+              </p>
+              <p className="text-left lg:text-justify hyphens-auto">
+               Selama proses belajar dan pengembangan diri, saya telah terlibat dalam berbagai proyek yang berkaitan dengan perancangan sistem informasi, pengembangan website, serta pengelolaan basis data relasional. Melalui pengalaman tersebut, saya memahami pentingnya membangun solusi digital yang terstruktur, fungsional, dan mampu menjawab kebutuhan pengguna secara efektif.
+            </p>
+            <p className="text-left lg:text-justify hyphens-auto">
+              Selain aspek teknis, saya juga memiliki ketertarikan pada desain antarmuka dan pengalaman pengguna. Saya senang merancang tampilan yang modern, responsif, dan intuitif agar pengguna dapat berinteraksi dengan website atau sistem secara nyaman dan efisien. Bagi saya, desain yang baik bukan hanya tentang tampilan visual, tetapi juga tentang bagaimana sebuah sistem dapat membantu pengguna mencapai tujuan mereka dengan lebih mudah.
+              </p>
+            <p className="text-left lg:text-justify hyphens-auto">
+            Saya percaya bahwa teknologi merupakan sarana untuk menciptakan solusi yang bermanfaat dan memberikan dampak nyata. Oleh karena itu, saya terus mengembangkan kemampuan dalam analisis, pemecahan masalah, serta penerapan teknologi modern untuk menghasilkan website dan sistem yang efektif, efisien, dan bernilai.
           </p>
-          <p className="text-left lg:text-justify hyphens-auto">
-            Saya berpengalaman merancang database, bikin dokumentasi sistem, dan optimasi struktur data. Di web dev, saya gabungin fungsi dan desain biar aplikasi responsif dan mudah dipakai.
-          </p>
-          <p className="text-left lg:text-justify hyphens-auto">
-            Di desain, saya fokus UI/UX dan branding digital. Saya bikin antarmuka yang enak dilihat dan nyaman digunakan.
-          </p>
-          <p className="text-left lg:text-justify hyphens-auto">
-            Teknologi buat saya bukan cuma coding, tapi cara menyelesaikan masalah dengan solusi rapi. Saya terus belajar analisis, problem solving, dan ikutin perkembangan tech.
-          </p>
-          <p className="text-left lg:text-justify hyphens-auto">
-            Sekarang saya perdalam Web Dev, Database, UI/UX, dan Cybersecurity. Targetnya? Jadi profesional yang bisa gabungin teknis, desain, dan analisis buat solusi digital inovatif.
+            <p className="text-left lg:text-justify hyphens-auto">
+  Saat ini, saya terus memperdalam pengetahuan dan keterampilan di bidang <span className="text-blue-600 dark:text-blue-400">Web Development</span>, <span className="text-blue-600 dark:text-blue-400">Database Management</span>, dan <span className="text-blue-600 dark:text-blue-400">UI/UX Design</span>, dengan tujuan menjadi seorang profesional yang mampu menggabungkan kemampuan teknis, kreativitas, dan pemikiran analitis dalam membangun solusi digital yang inovatif dan berorientasi pada kebutuhan pengguna.
           </p>
         </div>
       </div>
