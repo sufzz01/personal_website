@@ -326,7 +326,7 @@ export default function App() {
       
       <div className="bg-white/60 dark:bg-slate-800/60 backdrop-blur-xl rounded-3xl px-5 py-8 md:px-12 md:py-12 shadow-xl border-slate-200/50 dark:border-slate-700/50">
         <div className="space-y-6 text-slate-700 dark:text-slate-300 text-lg leading-relaxed">
-          <p className="text-left">
+          <p className="text-left md:text-justify break-words">
             Halo, saya <span className="font-semibold text-blue-600 dark:text-blue-400">M. Yusuf</span>, seorang mahasiswa yang memiliki minat besar di bidang teknologi informasi, khususnya Web Development, Database Management, dan UI/UX Design.
           </p>
           
