@@ -308,7 +308,7 @@ export default function App() {
           </div>
         </section>
 
-          {/* About Section */}
+        {/* About Section */}
 <section id="about" className="py-24 px-4">
   <div className="max-w-5xl mx-auto">
     <motion.div
@@ -326,19 +326,19 @@ export default function App() {
       <div className="bg-white/60 dark:bg-slate-800/60 backdrop-blur-xl rounded-3xl p-8 md:p-12 shadow-xl border-slate-200/50 dark:border-slate-700/50">
         <div className="space-y-6 text-slate-700 dark:text-slate-300 text-lg leading-relaxed">
           <p className="text-left lg:text-justify hyphens-auto">
-            Halo, saya <span className="font-semibold text-blue-600 dark:text-blue-400">M. Yusuf</span>. Saya mahasiswa dengan minat besar di bidang teknologi informasi, khususnya pengembangan website, manajemen database, desain UI/UX, serta dasar keamanan siber. Ketertarikan saya pada dunia teknologi tumbuh sejak SMK dan terus berkembang lewat proyek akademik dan belajar mandiri hingga sekarang.
+            Halo, saya <span className="font-semibold text-blue-600 dark:text-blue-400">M. Yusuf</span>. Mahasiswa dengan minat besar di bidang teknologi, khususnya pengembangan website, manajemen database, desain UI/UX, dan keamanan siber.
           </p>
           <p className="text-left lg:text-justify hyphens-auto">
-            Saya berpengalaman merancang dan mengelola database MySQL, membuat dokumentasi sistem, menyusun data dictionary, serta menerapkan fitur seperti trigger, relasi tabel, dan optimasi struktur database. Saya juga aktif belajar pengembangan web modern yang memadukan fungsi dan desain untuk menghasilkan aplikasi yang cepat, responsif, dan mudah dipakai.
+            Saya berpengalaman merancang database, bikin dokumentasi sistem, dan optimasi struktur data. Di web dev, saya gabungin fungsi dan desain biar aplikasi responsif dan mudah dipakai.
           </p>
           <p className="text-left lg:text-justify hyphens-auto">
-            Di bidang desain, saya fokus pada UI/UX dan branding digital. Saya suka membuat antarmuka yang enak dilihat dan nyaman digunakan. Mulai dari desain website, mockup aplikasi, sampai identitas visual sudah jadi bagian dari proses belajar saya.
+            Di desain, saya fokus UI/UX dan branding digital. Saya bikin antarmuka yang enak dilihat dan nyaman digunakan.
           </p>
           <p className="text-left lg:text-justify hyphens-auto">
-            Saya percaya teknologi itu bukan cuma soal coding. Lebih dari itu, teknologi adalah cara menyelesaikan masalah dengan solusi yang rapi dan berguna. Karena itu saya terus melatih kemampuan analisis, problem solving, dan terus belajar mengikuti perkembangan teknologi.
+            Teknologi buat saya bukan cuma coding, tapi cara menyelesaikan masalah dengan solusi rapi. Saya terus belajar analisis, problem solving, dan ikutin perkembangan tech.
           </p>
           <p className="text-left lg:text-justify hyphens-auto">
-            Saat ini saya memperdalam Web Development, Database Management, UI/UX Design, dan Cybersecurity. Target saya jadi profesional teknologi yang bisa menggabungkan skill teknis, desain, dan analisis untuk membuat solusi digital yang inovatif dan bermanfaat.
+            Sekarang saya perdalam Web Dev, Database, UI/UX, dan Cybersecurity. Targetnya? Jadi profesional yang bisa gabungin teknis, desain, dan analisis buat solusi digital inovatif.
           </p>
         </div>
       </div>
