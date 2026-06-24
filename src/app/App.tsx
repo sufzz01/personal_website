@@ -323,7 +323,7 @@ export default function App() {
         </h2>
         <div className="w-20 h-1 bg-gradient-to-r from-blue-600 to-indigo-600 mx-auto rounded-full"></div>
       </div>
-      <div className="bg-white/60 dark:bg-slate-800/60 backdrop-blur-xl rounded-3xl p-8 md:p-12 shadow-xl border-slate-200/50 dark:border-slate-700/50">
+      <div className="bg-white/60 dark:bg-slate-800/60 backdrop-blur-xl rounded-3xl px-5 py-8 md:px-12 md:py-12 shadow-xl border-slate-200/50 dark:border-slate-700/50">
         <div className="space-y-6 text-slate-700 dark:text-slate-300 text-lg leading-relaxed">
           <p className="text-left lg:text-justify hyphens-auto">
             Halo, saya <span className="font-semibold text-blue-600 dark:text-blue-400">M. Yusuf</span>. Mahasiswa dengan minat besar di bidang teknologi, khususnya pengembangan website, manajemen database, desain UI/UX, dan keamanan siber.
