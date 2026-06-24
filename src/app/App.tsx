@@ -308,7 +308,8 @@ export default function App() {
           </div>
         </section>
 
-        /* About Section */
+        jsx
+/* About Section */
 <section id="about" className="py-24 px-4">
   <div className="max-w-5xl mx-auto">
     <motion.div
@@ -323,26 +324,26 @@ export default function App() {
         </h2>
         <div className="w-20 h-1 bg-gradient-to-r from-blue-600 to-indigo-600 mx-auto rounded-full"></div>
       </div>
-      
+
       <div className="bg-white/60 dark:bg-slate-800/60 backdrop-blur-xl rounded-3xl px-5 py-8 md:px-12 md:py-12 shadow-xl border-slate-200/50 dark:border-slate-700/50">
         <div className="space-y-6 text-slate-700 dark:text-slate-300 text-lg leading-relaxed">
-          <p className="text-left">
+          <p className="text-left break-words">
             Halo, saya <span className="font-semibold text-blue-600 dark:text-blue-400">M. Yusuf</span>, seorang mahasiswa yang memiliki minat besar di bidang teknologi informasi, khususnya Web Development, Database Management, dan UI/UX Design.
           </p>
-          
-          <p className="text-left">
+
+          <p className="text-left break-words">
             Ketertarikan saya terhadap dunia teknologi dimulai sejak menempuh pendidikan di SMK dan terus berkembang hingga saat ini melalui berbagai proyek akademik maupun pembelajaran mandiri. Selama proses belajar dan pengembangan diri, saya telah terlibat dalam berbagai proyek yang berkaitan dengan perancangan sistem informasi, pengembangan website, serta pengelolaan basis data relasional.
           </p>
-          
-          <p className="text-left">
+
+          <p className="text-left break-words">
             Melalui pengalaman tersebut, saya memahami pentingnya membangun solusi digital yang terstruktur, fungsional, dan mampu menjawab kebutuhan pengguna secara efektif. Selain aspek teknis, saya juga memiliki ketertarikan pada desain antarmuka dan pengalaman pengguna. Saya senang merancang tampilan yang modern, responsif, dan intuitif agar pengguna dapat berinteraksi dengan website atau sistem secara nyaman dan efisien.
           </p>
-          
-          <p className="text-left">
+
+          <p className="text-left break-words">
             Bagi saya, desain yang baik bukan hanya tentang tampilan visual, tetapi juga tentang bagaimana sebuah sistem dapat membantu pengguna mencapai tujuan mereka dengan lebih mudah. Saya percaya bahwa teknologi merupakan sarana untuk menciptakan solusi yang bermanfaat dan memberikan dampak nyata. Oleh karena itu, saya terus mengembangkan kemampuan dalam analisis, pemecahan masalah, serta penerapan teknologi modern untuk menghasilkan website dan sistem yang efektif, efisien, dan bernilai.
           </p>
-          
-          <p className="text-left">
+
+          <p className="text-left break-words">
             Saat ini, saya terus memperdalam pengetahuan dan keterampilan di bidang Web Development, Database Management, dan UI/UX Design, dengan tujuan menjadi seorang profesional yang mampu menggabungkan kemampuan teknis, kreativitas, dan pemikiran analitis dalam membangun solusi digital yang inovatif dan berorientasi pada kebutuhan pengguna.
           </p>
         </div>
