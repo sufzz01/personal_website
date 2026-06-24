@@ -308,44 +308,43 @@ export default function App() {
           </div>
         </section>
 
-        {/* About Section */}
-        <section id="about" className="py-24 px-4">
-          <div className="max-w-5xl mx-auto">
-            <motion.div
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6 }}
-            >
-              <div className="text-center mb-16">
-                <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
-                  Tentang Saya
-                </h2>
-                <div className="w-20 h-1 bg-gradient-to-r from-blue-600 to-indigo-600 mx-auto rounded-full"></div>
-              </div>
-
-              <div className="bg-white/60 dark:bg-slate-800/60 backdrop-blur-xl rounded-3xl p-8 md:p-12 shadow-xl border border-slate-200/50 dark:border-slate-700/50">
-                <div className="space-y-6 text-slate-700 dark:text-slate-300 text-lg leading-relaxed">
-                  <p>
-                    Halo, saya <span className="font-semibold text-blue-600 dark:text-blue-400">M. Yusuf</span>, lahir pada tahun 2007, dan saat ini merupakan mahasiswa Program Studi Teknologi Informasi angkatan 2025 di Universitas Muhammadiyah Palembang.
-                  </p>
-                  <p>
-                    Saya merupakan lulusan SMKN 01 Suak Tapeh dengan jurusan Teknik Komputer dan Jaringan. Selama menempuh pendidikan di SMK, saya mempelajari jaringan komputer, perangkat keras, sistem operasi, dan dasar-dasar teknologi informasi.
-                  </p>
-                  <p>
-                    Saya juga menjalani Praktik Kerja Lapangan (PKL) selama enam bulan di PT Andalan Alam Sumatra (BBS Group). Dalam kegiatan tersebut, saya bertugas melakukan monitoring data hasil panen, pengolahan data, serta entri data menggunakan Microsoft Excel untuk mendukung kegiatan administrasi perusahaan.
-                  </p>
-                  <p>
-                    Selain itu, saya memiliki pengalaman kerja selama 1 tahun 6 bulan di Mulia Jaya Computer sebagai Warehouse Helper & Shipping Assistant yang membantu operasional gudang, pengelolaan inventaris, entri data barang, serta proses pengiriman produk kepada pelanggan.
-                  </p>
-                  <p>
-                    Saat ini saya terus mengembangkan kemampuan di bidang teknologi informasi melalui perkuliahan, pembelajaran mandiri, dan berbagai proyek yang saya kerjakan. Saya memiliki ketertarikan pada pengembangan website, desain antarmuka pengguna, basis data, serta sistem informasi.
-                  </p>
-                </div>
-              </div>
-            </motion.div>
-          </div>
-        </section>
+        /* About Section */
+<section id="about" className="py-24 px-4">
+  <div className="max-w-5xl mx-auto">
+    <motion.div
+      initial={{ opacity: 0, y: 30 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true }}
+      transition={{ duration: 0.6 }}
+    >
+      <div className="text-center mb-16">
+        <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
+          Tentang Saya
+        </h2>
+        <div className="w-20 h-1 bg-gradient-to-r from-blue-600 to-indigo-600 mx-auto rounded-full"></div>
+      </div>
+      <div className="bg-white/60 dark:bg-slate-800/60 backdrop-blur-xl rounded-3xl p-8 md:p-12 shadow-xl border border-slate-200/50 dark:border-slate-700/50">
+        <div className="space-y-6 text-slate-700 dark:text-slate-300 text-lg leading-relaxed">
+          <p className="text-center">
+            Halo, saya <span className="font-semibold text-blue-600 dark:text-blue-400">M. Yusuf</span>, seorang mahasiswa yang memiliki minat dan ketertarikan besar di bidang teknologi informasi, khususnya pengembangan website, manajemen basis data, desain antarmuka pengguna (UI/UX), serta dasar-dasar keamanan siber. Ketertarikan saya terhadap dunia teknologi dimulai sejak menempuh pendidikan di SMK dan terus berkembang hingga saat ini melalui berbagai proyek akademik maupun pembelajaran mandiri.
+          </p>
+          <p className="text-center">
+            Saya memiliki pengalaman dalam merancang dan mengelola basis data menggunakan MySQL, membuat dokumentasi sistem, menyusun data dictionary, serta mengimplementasikan berbagai fitur seperti trigger, relasi tabel, dan optimasi struktur database. Selain itu, saya juga aktif mempelajari pengembangan web modern dengan menggabungkan aspek fungsionalitas dan desain agar menghasilkan aplikasi yang efektif, responsif, dan mudah digunakan.
+          </p>
+          <p className="text-center">
+            Di bidang desain, saya memiliki minat pada UI/UX Design dan branding digital. Saya senang merancang antarmuka yang tidak hanya menarik secara visual, tetapi juga memberikan pengalaman pengguna yang nyaman dan intuitif. Berbagai desain website, mockup aplikasi, hingga identitas visual telah menjadi bagian dari proses pembelajaran dan pengembangan keterampilan saya.
+          </p>
+          <p className="text-center">
+            Saya percaya bahwa teknologi bukan hanya tentang menulis kode, tetapi juga tentang menyelesaikan masalah secara efektif melalui solusi yang terstruktur dan bermanfaat. Oleh karena itu, saya selalu berusaha mengembangkan kemampuan analitis, pemecahan masalah, serta kemampuan belajar yang berkelanjutan untuk mengikuti perkembangan teknologi yang terus berubah.
+          </p>
+          <p className="text-center">
+            Saat ini, saya terus memperdalam pengetahuan di bidang Web Development, Database Management, UI/UX Design, dan Cybersecurity, dengan tujuan menjadi profesional teknologi yang mampu menggabungkan kemampuan teknis, desain, dan analisis untuk menciptakan solusi digital yang inovatif dan bernilai.
+          </p>
+        </div>
+      </div>
+    </motion.div>
+  </div>
+</section>
 
         {/* Education Section — fixed timeline */}
         <section id="education" className="py-24 px-4 bg-slate-100/50 dark:bg-slate-900/50">
