@@ -308,7 +308,7 @@ export default function App() {
           </div>
         </section>
 
-        /* About Section */
+        {/* About Section */}
 <section id="about" className="py-24 px-4">
   <div className="max-w-5xl mx-auto">
     <motion.div
