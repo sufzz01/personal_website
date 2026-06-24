@@ -308,7 +308,7 @@ export default function App() {
           </div>
         </section>
 
-        {/* About Section */}
+          {/* About Section */}
 <section id="about" className="py-24 px-4">
   <div className="max-w-5xl mx-auto">
     <motion.div
@@ -325,20 +325,20 @@ export default function App() {
       </div>
       <div className="bg-white/60 dark:bg-slate-800/60 backdrop-blur-xl rounded-3xl p-8 md:p-12 shadow-xl border-slate-200/50 dark:border-slate-700/50">
         <div className="space-y-6 text-slate-700 dark:text-slate-300 text-lg leading-relaxed">
-          <p className="text-left md:text-justify">
-            Halo, saya <span className="font-semibold text-blue-600 dark:text-blue-400">M. Yusuf</span>, seorang mahasiswa yang memiliki minat dan ketertarikan besar di bidang teknologi informasi, khususnya pengembangan website, manajemen basis data, desain antarmuka pengguna (UI/UX), serta dasar-dasar keamanan siber. Ketertarikan saya terhadap dunia teknologi dimulai sejak menempuh pendidikan di SMK dan terus berkembang hingga saat ini melalui berbagai proyek akademik maupun pembelajaran mandiri.
+          <p className="text-left lg:text-justify hyphens-auto">
+            Halo, saya <span className="font-semibold text-blue-600 dark:text-blue-400">M. Yusuf</span>. Saya mahasiswa dengan minat besar di bidang teknologi informasi, khususnya pengembangan website, manajemen database, desain UI/UX, serta dasar keamanan siber. Ketertarikan saya pada dunia teknologi tumbuh sejak SMK dan terus berkembang lewat proyek akademik dan belajar mandiri hingga sekarang.
           </p>
-          <p className="text-left md:text-justify">
-            Saya memiliki pengalaman dalam merancang dan mengelola basis data menggunakan MySQL, membuat dokumentasi sistem, menyusun data dictionary, serta mengimplementasikan berbagai fitur seperti trigger, relasi tabel, dan optimasi struktur database. Selain itu, saya juga aktif mempelajari pengembangan web modern dengan menggabungkan aspek fungsionalitas dan desain agar menghasilkan aplikasi yang efektif, responsif, dan mudah digunakan.
+          <p className="text-left lg:text-justify hyphens-auto">
+            Saya berpengalaman merancang dan mengelola database MySQL, membuat dokumentasi sistem, menyusun data dictionary, serta menerapkan fitur seperti trigger, relasi tabel, dan optimasi struktur database. Saya juga aktif belajar pengembangan web modern yang memadukan fungsi dan desain untuk menghasilkan aplikasi yang cepat, responsif, dan mudah dipakai.
           </p>
-          <p className="text-left md:text-justify">
-            Di bidang desain, saya memiliki minat pada UI/UX Design dan branding digital. Saya senang merancang antarmuka yang tidak hanya menarik secara visual, tetapi juga memberikan pengalaman pengguna yang nyaman dan intuitif. Berbagai desain website, mockup aplikasi, hingga identitas visual telah menjadi bagian dari proses pembelajaran dan pengembangan keterampilan saya.
+          <p className="text-left lg:text-justify hyphens-auto">
+            Di bidang desain, saya fokus pada UI/UX dan branding digital. Saya suka membuat antarmuka yang enak dilihat dan nyaman digunakan. Mulai dari desain website, mockup aplikasi, sampai identitas visual sudah jadi bagian dari proses belajar saya.
           </p>
-          <p className="text-left md:text-justify">
-            Saya percaya bahwa teknologi bukan hanya tentang menulis kode, tetapi juga tentang menyelesaikan masalah secara efektif melalui solusi yang terstruktur dan bermanfaat. Oleh karena itu, saya selalu berusaha mengembangkan kemampuan analitis, pemecahan masalah, serta kemampuan belajar yang berkelanjutan untuk mengikuti perkembangan teknologi yang terus berubah.
+          <p className="text-left lg:text-justify hyphens-auto">
+            Saya percaya teknologi itu bukan cuma soal coding. Lebih dari itu, teknologi adalah cara menyelesaikan masalah dengan solusi yang rapi dan berguna. Karena itu saya terus melatih kemampuan analisis, problem solving, dan terus belajar mengikuti perkembangan teknologi.
           </p>
-          <p className="text-left md:text-justify">
-            Saat ini, saya terus memperdalam pengetahuan di bidang Web Development, Database Management, UI/UX Design, dan Cybersecurity, dengan tujuan menjadi profesional teknologi yang mampu menggabungkan kemampuan teknis, desain, dan analisis untuk menciptakan solusi digital yang inovatif dan bernilai.
+          <p className="text-left lg:text-justify hyphens-auto">
+            Saat ini saya memperdalam Web Development, Database Management, UI/UX Design, dan Cybersecurity. Target saya jadi profesional teknologi yang bisa menggabungkan skill teknis, desain, dan analisis untuk membuat solusi digital yang inovatif dan bermanfaat.
           </p>
         </div>
       </div>
