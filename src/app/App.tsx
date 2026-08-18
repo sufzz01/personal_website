@@ -298,7 +298,11 @@ export default function App() {
               >
                 <div className="relative w-full aspect-square max-w-md mx-auto">
                   <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-full blur-3xl opacity-20 animate-pulse"></div>
+<<<<<<< HEAD
                   <img src="/profil.jpeg"
+=======
+                  <img src="/profil.web..jpeg"
+>>>>>>> a3fee21157c7f46043c15bbecf3034098a4d575d
                     alt="profil"
                     className="relative w-full h-full object-cover rounded-full border-8 border-white dark:border-slate-800 shadow-2xl"
                   />
